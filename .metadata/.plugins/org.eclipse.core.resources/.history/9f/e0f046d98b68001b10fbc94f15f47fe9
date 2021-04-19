@@ -1,0 +1,14 @@
+package org.cons;
+
+public class Q5 extends Q4 {
+	
+	public Q5() {
+		
+	System.out.println("5th Default Constructor");
+	
+	}
+
+	public static void main(String[] args) {
+		Q5 t = new Q5();
+	}
+}

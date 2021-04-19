@@ -1,0 +1,30 @@
+package org.questions.day3;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q6 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://greenstech.in/selenium-course-content.html");
+
+		driver.manage().window().maximize();
+
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+		WebElement searchbox = driver.findElement(By.xpath("//div[@class='fr signin-block']"));
+		searchbox.click();
+
+		WebElement clicklogin = driver.findElement(By.xpath("//a[contains(text(),'CTS Interview Question ')]"));
+		clicklogin.click();
+
+	}
+}

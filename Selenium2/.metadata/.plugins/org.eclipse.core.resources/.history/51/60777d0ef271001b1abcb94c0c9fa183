@@ -1,0 +1,28 @@
+package org.questions.day3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://demo.automationtesting.in/Register.html");
+
+		WebElement searchbox = driver.findElement(By.xpath("//input[@name='email']"));
+		searchbox.sendKeys("thiyaguji@yahoo.com");
+
+		WebElement clickbox = driver.findElement(By.xpath("//input[@name='pass']"));
+		clickbox.sendKeys("9345030174@Fbrt");
+		
+		WebElement clicklogin = driver.findElement(By.xpath("//button[@name='login']"));
+		clicklogin.click();
+		
+	}
+}
+	

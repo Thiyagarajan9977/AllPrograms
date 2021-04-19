@@ -1,0 +1,30 @@
+package org.exceptions.handling;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class ThrowMethod {
+	
+	// My intention is throw the manual exception using
+	//throw keyword,  this is compile time exception
+	//checked exception
+	
+	private static void empid() throws IOException {
+		
+		Scanner s = new Scanner(System.in);
+		String id = s.next();
+		if(id.startsWith("13")) {
+			System.out.println("valid ID");
+			}
+		else {
+			System.out.println("Invalid ID");
+			
+			throw new IOException();
+		}
+	}
+	
+	public static void main(String[] args) {
+		ThrowMethod e = new ThrowMethod();
+		e.empid();
+	}
+}

@@ -1,0 +1,21 @@
+package org.questions;
+
+import java.io.File;
+
+public class Q3 {
+	
+	public static void main(String[] args) {
+		
+		File f = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions2.txt");
+		File[] files = f.listFiles();
+		System.out.println(files);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

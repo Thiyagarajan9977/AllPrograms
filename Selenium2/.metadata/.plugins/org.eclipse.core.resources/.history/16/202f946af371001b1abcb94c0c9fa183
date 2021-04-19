@@ -1,0 +1,43 @@
+package org.questions.day3;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q3 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://demo.automationtesting.in/Register.html");
+
+		WebElement searchbox = driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+		searchbox.sendKeys("Thiyagarajan");
+
+		WebElement clickbox = driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
+		clickbox.sendKeys("Rajasudhakar");
+		
+		WebElement clicklogin = driver.findElement(By.xpath("//textarea[contains(@class,'form-control')]"));
+		clicklogin.sendKeys("Address");
+		
+		WebElement email = driver.findElement(By.xpath("//input[contains(@type,'email')]"));
+		email.sendKeys("tyagu089@gmail.com");
+		
+		WebElement phone= driver.findElement(By.xpath("//input[contains(@type,'tel')]"));
+		phone.sendKeys("9791889978");
+		
+		WebElement pwd = driver.findElement(By.xpath("//input[contains(@id,'firstpassword')]"));
+		pwd.sendKeys("123456789");
+		
+		WebElement pwd2 = driver.findElement(By.xpath("//input[contains(@id,'secondpassword')]"));
+		pwd2.sendKeys("123456789");
+		
+		
+		
+		
+	}
+}
+	

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>HiJSON Editor</title>
+    <link>http://marketplace.eclipse.org/content/hijson-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/highspeed-json-editor-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2020-09-08 04:26&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 17:25&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin is a Highspeed JSON editor - designed to handle bigger files very fast. Especially files were JSON is in one line, which is normally a problem in eclipse: It often freezes /slows down eclipse in other editors when files become a little bit bigger. Please read &lt;a href=&quot;https://github.com/de-jcup/eclipse-hijson-editor/wiki#why-another-json-editor-plugin&quot; rel=&quot;nofollow&quot;&gt; Wiki#why-another-json-editor-plugin &lt;/a&gt; for more details. The first screenshot shows a file having 15MB content. On my developer machine it loads in less than 5 seconds.&lt;/p&gt;
+&lt;p&gt;Maybe other editors are more comfortable, have more features etc. So for normal sized JSON files they are a very good option - but when your IDE freezes on bigger files this editor could be the solution.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Features&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Can open bigger JSON files very fast, no matter if one line or pretty printed&lt;/li&gt;
+&lt;li&gt;Fast syntax highlighting, customizable colors, defaults for dark theme&lt;/li&gt;
+&lt;li&gt;One liners will be automatically converted to mulitple lines (this increases eclipse rendering mechanism extreme). The editor is marked as dirty and a information is shown in IDE bottom line when editor is active&lt;/li&gt;
+&lt;li&gt;Outline is
+&lt;ul&gt;&lt;li&gt;turned off per default (but content can be enabled in outline view)&lt;/li&gt;
+&lt;li&gt;splitting big arrays in array groups - so rendering in outline is faster&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Missing feature&lt;/strong&gt; (at the moment)&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Currently outline items (when outline has been enabled) is not linked with editor (because pos information is not parsed). So outline is just for get an overview of document structure&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Additional links&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-hijson-editor/issues&quot; rel=&quot;nofollow&quot;&gt;Issue Tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-hijson-editor/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-hijson-editor/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 08 Sep 2020 08:26:59 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">5223289 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/hijson-editor#comments</comments>
+  </item>
+  <item>
+    <title>JUnit Server Result</title>
+    <link>http://marketplace.eclipse.org/content/junit-server-result</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/junit-serverresult-logo.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/atregnaghi/listings&quot; title=&quot;Albert Tregnaghi&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2020-04-18 12:40&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 16:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Albert%20Tregnaghi%22&quot;&gt;Albert Tregnaghi&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;In a nutshell:&lt;/h2&gt;
+&lt;p&gt;This plugin is not a replacement for JDT JUnit view, but more an addition for junit server results. It shows server console output and error stream in own console, can also correlate server logs to testsuites per timestamp and contains some other nice features.&lt;/p&gt;
+&lt;p&gt;There is a short &lt;a href=&quot;https://youtu.be/EKfo-ZHl8Hs&quot; rel=&quot;nofollow&quot;&gt;YouTube video&lt;/a&gt; available showing the usage of the plugin&lt;/p&gt;
+&lt;h2&gt;Details:&lt;/h2&gt;
+&lt;p&gt;Eclipse JDT standard JUnit view is very good wheny you are starting your tests inside eclipse. And you are able to import existing junit xml files. But the imported tests do not contain test console output (system out/err) because normally eclipse does run the tests and shows output inside console view.&lt;/p&gt;
+&lt;p&gt;Here comes this plugin into: It shows up  output and error stream data inside own console when double click is done to a view. This will also open origin Junit-View ans how up test results as usual.&lt;/p&gt;
+&lt;p&gt;When you link a log file (e.g. from an integration test server output)  the doubleclick action will also open a special editor and the log timestamp are searched inside - the time period were test has been executed will be truncated and shown in the editor area. So you wil be able to inspect bigger log files faster, because you look only to relevant parts. If time period cannot be resolved it ill be shown on screen, as well when success.&lt;/p&gt;
+&lt;p&gt;The search for truncated parts in special &quot;truncated&quot; result editor is done asynchronous inside a job, so you are able to continoue to work when search takes a longer time (when log files are big).&lt;/p&gt;
+&lt;h2&gt;Links:&lt;/h2&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-junit-server-result/issues&quot; rel=&quot;nofollow&quot;&gt;Issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-junit-server-result/wiki&quot; rel=&quot;nofollow&quot;&gt;Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/de-jcup/eclipse-junit-server-result/releases&quot; rel=&quot;nofollow&quot;&gt;Release history&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLaBYAz_I_8tHStzM1AWhZU4Fs4NzqnoJC&quot; rel=&quot;nofollow&quot;&gt;YouTube Playlist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Sat, 18 Apr 2020 16:40:06 +0000</pubDate>
+ <dc:creator>atregnaghi</dc:creator>
+ <guid isPermaLink="false">5073161 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/junit-server-result#comments</comments>
+  </item>
+  <item>
+    <title>UML Lab Modeling IDE</title>
+    <link>http://marketplace.eclipse.org/content/uml-lab-modeling-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Eclipse%20Marketplace%20Listing%20-%20Round-Trip-Engineering%20%282%29%20110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lgeiger/listings&quot; title=&quot;Leif Geiger&quot;&gt;Leif Geiger&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-11-11 09:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 14:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;UML Lab Modeling IDE&lt;/h2&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; is the first Modeling IDE to seamlessly combine modeling and programming with an intuitive UML diagram editor and &lt;a href=&quot;http://www.uml-lab.com/uml-lab/features/roundtrip/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;next-gen round-trip engineering&lt;/a&gt;. Import your software project and get a nice overview via UML within seconds. Experience truly agile modeling and coding within your Eclipse IDE.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.uml-lab.com/en/uml-lab/videos/round-trip-engineering-ng-video/&quot; target=&quot;UML Lab Gallery&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In short, &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; helps you develop great software.&lt;/p&gt;
+&lt;h3&gt;UML Lab Features for Eclipse Modeling&lt;/h3&gt;
+&lt;ul&gt;&lt;li&gt;Template-based Reverse- and Round-Trip-Engineering NG&lt;/li&gt;
+&lt;li&gt;UML 2.5 class diagram editor with Xpand/Xtend integration&lt;/li&gt;
+&lt;li&gt;Java templates with best practices and patterns included (POJO, JPA, JEE)&lt;/li&gt;
+&lt;li&gt;Java 8 ready&lt;/li&gt;
+&lt;li&gt;PHP templates including MySQL, Zend Framework and CakePHP support&lt;/li&gt;
+&lt;li&gt;Model-based code validation (OCL)&lt;/li&gt;
+&lt;li&gt;Navigation and model exploration&lt;/li&gt;
+&lt;li&gt;Quick overview for any Mylyn task with Context Class Diagrams&lt;/li&gt;
+&lt;li&gt;Task-focussed modeling with Mylyn and round-trip context synchronization&lt;/li&gt;
+&lt;li&gt;XMI import/export (Rational Software Architect, TopCASED, Eclipse UML2)&lt;/li&gt;
+&lt;li&gt;Diagram export (svg, png, jpg, bmp)&lt;/li&gt;
+&lt;/ul&gt;&lt;h3&gt;Get UML Lab&lt;/h3&gt;
+&lt;p&gt;Visit our &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;website&lt;/a&gt; for more information, pricing and to download a &lt;a href=&quot;http://www.uml-lab.com/download/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;FREE 30-Day Trial&lt;/a&gt; of UML Lab. Annual licenses are available from EUR 199 including support and updates; &lt;a href=&quot;http://www.uml-lab.com/academic/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Academic Licenses&lt;/a&gt; are free.&lt;/p&gt;
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;https://marketplace.yatta.de/profiles/kbut&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Contact us&lt;/h3&gt;
+&lt;p&gt;Missing some information? Post your question in our &lt;a href=&quot;https://forum.yatta.de/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;forum&lt;/a&gt; or &lt;a href=&quot;http://www.yatta.de/kontakt/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;contact us&lt;/a&gt; and follow the latest Yatta News on &lt;a href=&quot;http://twitter.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Twitter&lt;/a&gt; (e.g. UMLlab ) and &lt;a href=&quot;http://facebook.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Thu, 11 Nov 2010 14:06:52 +0000</pubDate>
+ <dc:creator>lgeiger</dc:creator>
+ <guid isPermaLink="false">19495 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/uml-lab-modeling-ide#comments</comments>
+  </item>
+  <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, VHDL, and PSS</title>
+    <link>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;etools Mising name&quot;&gt;etools Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 10:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the design and verification engineers working with &lt;strong&gt;SystemVerilog, Verilog, VHDL, e, UPF, CPF, SLN, PSS, SDL&lt;/strong&gt;. &lt;strong&gt;Including Universal Verification Methodology (UVM)&lt;/strong&gt; support. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Compilation errors signaled on the fly&lt;/li&gt;
+&lt;li&gt;Autocomplete / Content Assist&lt;/li&gt;
+&lt;li&gt;Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;Hyperlinks&lt;/li&gt;
+&lt;li&gt;Semantic Search and Show Usages&lt;/li&gt;
+&lt;li&gt;Quick fixes / Autocorrect&lt;/li&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;Macro expansion&lt;/li&gt;
+&lt;li&gt;Project database query views (types, macros, checks, etc.)&lt;/li&gt;
+&lt;li&gt;Structural views (type hierarchy, design hierarch, call hierarchy, etc.)&lt;/li&gt;
+&lt;li&gt;Signal tracing&lt;/li&gt;
+&lt;li&gt;UML and TLM diagrams for inspecting and documenting the verification environment&lt;/li&gt;
+&lt;li&gt;Schematic, trace, state machine diagrams for inspecting and documenting the design&lt;/li&gt;
+&lt;li&gt;Dedicated UVM support&lt;/li&gt;
+&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
+RESOURCES &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-eclipse-ide&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Web Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/datasheets/amiq_dvt_datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLBx64n-99iZNiUJj_I8WkLLbRl8u0mi94&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-debugger&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss#comments</comments>
+  </item>
+  <item>
+    <title>jSparrow - Automatic Java Refactoring</title>
+    <link>http://marketplace.eclipse.org/content/jsparrow-automatic-java-refactoring</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/jSparrow_Fluegel_110x80.jpg&quot; width=&quot;110&quot; height=&quot;77&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mprehofer/listings&quot; title=&quot;Michaela Prehofer&quot;&gt;Michaela Prehofer&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-20 11:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 10:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Splendit%20IT-Consulting%20GmbH%22&quot;&gt;Splendit IT-Consulting GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;FOR INSTALLING JSPARROW USE THE EXTERNAL INSTALL BUTTON!!!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;jSparrow &lt;/strong&gt;detects and automatically replaces bugs and code smells in Java sources with a rule-based approach. jSparrow &lt;strong&gt;improves &lt;/strong&gt;your Java source code and transforms it to Java 8/9/10 user-guided and safe.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Refactor your Java code. Improve code quality. Apply the latest Java features. All automatically.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;
+jSparrow has now a set of&lt;strong&gt; 92 rules&lt;/strong&gt;, grouped into seven categories, which are designed for applying coding conventions, removing code smells, standardize logging, improving readability, and modernizing your Java codebase. Thus saving maintenance time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Removal &lt;/strong&gt;of potential &lt;strong&gt;bugs and code smells&lt;/strong&gt; is one of the main purposes of jSparrow. jSparrow is very efficient in disposing of these kinds of threats with its rules. You can group the profiles into individual &lt;strong&gt;rule profiles&lt;/strong&gt;, which also can be &lt;strong&gt;exported &lt;/strong&gt;and &lt;strong&gt;imported &lt;/strong&gt;to share them within your development team.&lt;/p&gt;
+&lt;p&gt;Staying up to date with the latest Java standards is normally requiring days of manual software maintenance work. &lt;strong&gt;jSparrow upgrades &lt;/strong&gt;old code-artifacts to new state-of-the-art programming practices. The usage of jSparrow´s &lt;strong&gt;full version&lt;/strong&gt; allows you to save a lot of valuable time while offering the option of &lt;strong&gt;automatically upgrading&lt;/strong&gt; to the latest version of Java within minutes in a safe way.&lt;/p&gt;
+&lt;p&gt;You can then decide if you want to use the jSparrow Free version, as usual, or the new features of jSparrow Starter for automatic refactoring. With jSparrow Starter you will be able to apply 20 rules free of charge. After a short registration, you will get a license key, allowing you to apply the rules on your projects.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Don´t lose time with tedious and repetitive work - let jSparrow do it!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Documentation: &lt;a href=&quot;https://jsparrow.github.io/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Rule description: &lt;a href=&quot;https://jsparrow.github.io/rules/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.github.io/rules/&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Compare our versions: &lt;a href=&quot;https://jsparrow.eu/get-jsparrow/&quot; rel=&quot;nofollow&quot;&gt;https://jsparrow.eu/get-jsparrow/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LATEST VERSION:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;jSparrow Release 3.27.1&lt;/p&gt;
+&lt;p&gt;jSparrow Maven PlugIn 3.3.1&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OUR RELEASE POLICY IS AS FOLLOWS:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Monthly releases&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Every 3rd Thursday we will release at least one new rule.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Weekly Bugfix &lt;/strong&gt;releases&lt;/p&gt;
+&lt;p&gt;Bugfixes will be released each Thursday&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hotfix Releases &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hotfix Releases can be deployed any time (hopefully not necessary)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Next Release: &lt;/strong&gt;Thursday 2021-03-18&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 20 Jun 2017 15:34:11 +0000</pubDate>
+ <dc:creator>mprehofer</dc:creator>
+ <guid isPermaLink="false">3503691 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jsparrow-automatic-java-refactoring#comments</comments>
+  </item>
+  <item>
+    <title>OpenAPI Editor</title>
+    <link>http://marketplace.eclipse.org/content/openapi-editor</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/about.png&quot; width=&quot;68&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/wjongman/listings&quot; title=&quot;Wim Jongman&quot;&gt;Wim Jongman&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2019-03-22 10:56&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 09:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Remain%20Software%22&quot;&gt;Remain Software&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;OpenAPI editor by Remain API Studio. A rich OpenAPI editor and a full OAS3 specs-compliant development environment. This rich OpenAPI editor enables you to create, edit, delete and update OpenAPI schemas, paths, security, servers, examples, tags, and all other components as defined by the OAS3 specs.&lt;/p&gt;
+&lt;p&gt;The OpenAPI editor by Remain API Studio also offers, out of the box,  a mock server, API testing, schemas, and full OpenAPI files imports and exports,  source code generation for all popular languages, and frameworks for both client and server sides.&lt;/p&gt;
+&lt;p&gt;OpenAPI editor by Remain API Studio includes built-in documentation for all parts of the OAS3/OpenAPI specs.&lt;/p&gt;
+&lt;p&gt;The visual OpenAPI editor enables you to inspect and edit your OpenAPI specification in a human-readable way. No more wading around in JSON or YAML unless you want to.&lt;/p&gt;
+&lt;p&gt;The OpenAPI editor includes the Swagger UI for integrated API testing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Try our OpenAPI editor for free!!! &lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/extranet/download-type/remain-api-studio-download&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Download the latest nightly build and standalone Remain OpenAPI Studio product &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorLicensing/OpenAPI_EditorLicensing.html?cp=0_0_3&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;How to activate my trial license&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#nav/0_0&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;OpenAPI editor usage wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;h4&gt; &lt;/h4&gt;
+&lt;h4&gt;&lt;strong&gt;Remain OpenAPI Studio &amp;amp; Test Release Features:&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;OpenAPI Editor v2.0.2&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorOpenAPI_Test/OpenAPI_EditorOpenAPI_Test.html?cp=0_0_21&quot; rel=&quot;nofollow&quot;&gt;API Test&lt;/a&gt;: Edit existing methods fields.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorResponses/OpenAPI_EditorResponses.html?cp=0_0_10&quot; rel=&quot;nofollow&quot;&gt;Global responses support&lt;/a&gt;: You can now define global responses and easily reuse them elsewhere in your OpenAPI document to avoid repetition and double maintenance.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorCallbacks/OpenAPI_EditorCallbacks.html?cp=0_0_16&quot; rel=&quot;nofollow&quot;&gt;Global callbacks support&lt;/a&gt;: Now, it&#039;s possible to define global callbacks and easily reuse them elsewhere in your OpenAPI document.&lt;/li&gt;
+&lt;li&gt;Global components deletion sync: When deleting a global component, be it a parameter, request body, or response, the user has now the choice to keep or delete references to this global component.&lt;/li&gt;
+&lt;li&gt;We&#039;ve also implemented many backend enhancements and fixed many open issues.&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;OpenAPI Editor v2.0.1&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorOpenAPI_Test/OpenAPI_EditorOpenAPI_Test.html?cp=0_0_22&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Full-fledged Testing Capabilities&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;HTTP Request Client: with all needed input and explanatory output UI.&lt;/li&gt;
+&lt;li&gt;Test your whole OpenAPI requests in one go. Or pick just one request or method to test&lt;/li&gt;
+&lt;li&gt;Flexibility to save and organize your test cases and test suites &lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorServers/OpenAPI_EditorServers.html?cp=0_0_15&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Mock-server&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Fully integrated and locally served auto-mock server&lt;/li&gt;
+&lt;li&gt;Auto-mock server that handles requests, callbacks, validates path and incoming parameters, and generates a mock response based on the definitions in your OpenAPI document&lt;/li&gt;
+&lt;li&gt;Run your Remain API test against the auto-mock server&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Schema XML Representation&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve introduced a new tab so that you can define a schema&#039;s XML data format&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorTags/OpenAPI_EditorTags.html?cp=0_0_12&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Global Tags&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve introduced a new tab: Tags, where global tags can be viewed/edited. Overriding tags on the operation level has been improved.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Inline Schema Attributes&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;It&#039;s possible now to view/edit an inline schema in the Attributes view.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorGenerator/OpenAPI_EditorGenerator.html?cp=0_0_18&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Documentations &amp;amp; Configurations Generation&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;Documentations and configurations can now be generated from your OAS3 document.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorWeb/OpenAPI_EditorWeb.html?cp=0_0_16&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;View Docs In Browser&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;The generated docs can also be served and viewed in the browser for ease of use.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSource_Code/OpenAPI_EditorSource_Code.html?cp=0_0_21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Component Source Code&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;For more development focus, it&#039;s now possible to select one component (e.g., schema, path, operation, security scheme, tag, or server) and view its source code in the component source view. You can also toggle between Yaml and JSON by using the local menu.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Schema Required Properties&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;You can now view/edit the required properties of a schema.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Schema Attributes&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;The attributes tab has been polished. Now, it shows only relevant fields to the selected schema. Additionally, we&#039;ve added the enum and example fields.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorParameters/OpenAPI_EditorParameters.html?cp=0_0_8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Parameter Style And Explode Fields&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve added support for the parameter style and explode fields.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Attributes View Revamp&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve extended the Schema Attributes view with these three tabs: Properties, Additional Properties, XML, and Discriminator tabs so that you can view/edit an inline schema and drill down schema properties.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorParameters/OpenAPI_EditorParameters.html?cp=0_0_8&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Parameter Content-type&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We now support parameter content type definitions for more granular parameter type control.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Schema Example Generation&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve introduced a new tab so that you can define a schema&#039;s XML data format&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorWeb/OpenAPI_EditorWeb.html?cp=0_0_16&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Web OpenAPI Editor&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;re offering a web OpenAPI editor. We&#039;ve augmented and integrated the Swagger web editor. You can now edit your OpenAPI document from this locally served web editor as well, using your favorite web theme and save your changes back.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorConvert/OpenAPI_EditorConvert.html?cp=0_0_5&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;JSON from/to Yaml&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;With one click, you can now convert your document format between JSON and Yaml without affecting your current document as a new one with the same name and different extensions will be generated for you.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;External Schema Reference&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;In addition to the current internal schema referencing (schemas in the same document), you can now refer to an external schema, be it on the same file system or remote on another server. A referenced schema data is automatically fetched and shown (currently read-only mode) in views as if it&#039;s an internal schema.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorResponses/OpenAPI_EditorResponses.html?cp=0_0_11&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Response Headers&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve added support for response headers.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Schema Discriminator&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;We&#039;ve added support for the schema discriminator object and mappings.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;We&#039;ve also implemented many backend enhancements and fixed many open issues&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;OpenAPI Editor v1.0.11&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorGenerator/OpenAPI_EditorGenerator.html?cp=0_0_18&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;8 new Generators - Nodejs, PHP, etc..&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorConvert/OpenAPI_EditorConvert.html?cp=0_0_5&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Convert Swagger API to OpenAPI (OAS3)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorServers/OpenAPI_EditorServers.html?cp=0_0_15#Circumvent_CORS_restriction_when_testing&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Circumvent CORS restrictions while testing locally&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorGenerator/OpenAPI_EditorGenerator.html?cp=0_0_18&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Server and Client code generators for many languages.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSchemas/OpenAPI_EditorSchemas.html?cp=0_0_6#Extract_Schema_From_JSON_Sample.2FPayload&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Extract  OpenAPI schema from a payload or sample&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorSource_Code/OpenAPI_EditorSource_Code.html?cp=0_0_21&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Show the source. Click from the visual editor to find the correct source location.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://remainsoftware.com/docs/openapi/help/index.jsp#topic/com.remainsoftware.oas3.help/manuals/html/OpenAPI_Editor/OpenAPI_EditorGenerator/OpenAPI_EditorGenerator.html?cp=0_0_18&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Server and client generation from OpenAPI (OAS3) &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;License UI Revamp&lt;/li&gt;
+&lt;li&gt;Integrated Rating and Feedback&lt;/li&gt;
+&lt;li&gt;Support site integration&lt;/li&gt;
+&lt;li&gt;Stability and usage enhancements&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;em&gt; &lt;/em&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 22 Mar 2019 14:56:15 +0000</pubDate>
+ <dc:creator>wjongman</dc:creator>
+ <guid isPermaLink="false">4556629 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/openapi-editor#comments</comments>
+  </item>
+  <item>
+    <title>Java 16 Support for Eclipse 2021-03 (4.19)</title>
+    <link>http://marketplace.eclipse.org/content/java-16-support-eclipse-2021-03-419</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jarthanaree/listings&quot; title=&quot;Jayaprakash Arthanareeswaran&quot;&gt;Jayaprakash Arthanareeswaran&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-02-09 22:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-03-03 00:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This marketplace solution provides Java 16 support for Eclipse 2021-03 (4.19). To install the feature, please ensure you have the most recent version of Eclipse 4.19 IDE installed.&lt;/p&gt;
+&lt;p&gt;The feature can also be installed via the following P2 update site:&lt;br /&gt;&lt;a href=&quot;https://download.eclipse.org/eclipse/updates/4.19-P-builds&quot; rel=&quot;nofollow&quot;&gt;https://download.eclipse.org/eclipse/updates/4.19-P-builds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For an informal list of examples of Java 16 features, please have a look at the following page:&lt;br /&gt;&lt;a href=&quot;https://wiki.eclipse.org/Java16/Examples&quot; rel=&quot;nofollow&quot;&gt;https://wiki.eclipse.org/Java16/Examples&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 10 Feb 2021 03:43:30 +0000</pubDate>
+ <dc:creator>jarthanaree</dc:creator>
+ <guid isPermaLink="false">5358776 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/java-16-support-eclipse-2021-03-419#comments</comments>
+  </item>
+  <item>
+    <title>cmake4eclipse</title>
+    <link>http://marketplace.eclipse.org/content/cmake4eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mweber0xe/listings&quot; title=&quot;Martin Weber&quot;&gt;Martin Weber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2015-05-01 12:21&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-03-02 15:50&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%2215knots%22&quot;&gt;15knots&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This Eclipse plugin automatically generates build-scripts for the Eclipse CDT managed build system from CMake scripts and runs the build.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Automatic generation of build scripts. No need to manually invoke &lt;code&gt;cmake&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Aims to make Eclipse projects cross-platform compatible without the need to change platform-specifc project settings due to automatic platform detection.&lt;/li&gt;
+&lt;li&gt;Takes your &lt;em&gt;CMakeLists.txt&lt;/em&gt; as the source of truth.
+&lt;ul&gt;&lt;li&gt;Auto-detects the actual build tool to invoke: make, &lt;code&gt;&lt;a href=&quot;https://github.com/ninja-build/ninja&quot; rel=&quot;nofollow&quot;&gt;ninja&lt;/a&gt;&lt;/code&gt;, nmake, MinGW make, MSYS make, ...&lt;/li&gt;
+&lt;li&gt;Provides a Language Settings Provider that can feed include paths and pre-processor symbols from cmake to the CDT-Indexer.&lt;/li&gt;
+&lt;li&gt;Its compiler-built-ins provider retrieves macros and include paths from the actual compiler, as far as the compiler supports that (including &lt;code&gt;nvcc&lt;/code&gt; CUDA complier).&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;For instructions inside the Eclipse workbench, go to Help:Help Contents, then open the &#039;Cmake4eclipse User Guide&#039; node.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/15knots/cmake4eclipse&quot; rel=&quot;nofollow&quot;&gt;Project site&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://groups.google.com/d/forum/cmake4eclipse-users&quot; rel=&quot;nofollow&quot;&gt;Mailing-list&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Fri, 01 May 2015 16:21:44 +0000</pubDate>
+ <dc:creator>mweber0xe</dc:creator>
+ <guid isPermaLink="false">2318334 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/cmake4eclipse#comments</comments>
+  </item>
+  <item>
+    <title>Oracle Database Tools</title>
+    <link>http://marketplace.eclipse.org/content/oracle-database-tools</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/OracleMarketplaceLogo_18.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/kkomissarchik/listings&quot; title=&quot;Konstantin Komissarchik&quot;&gt;Konstantin Komissarchik&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2013-03-13 11:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-03-02 13:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Oracle%22&quot;&gt;Oracle&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Tools for working with on-premises Oracle Database.&lt;/p&gt;
+&lt;p&gt;These features are also part of &lt;a href=&quot;http://www.oracle.com/technetwork/developer-tools/eclipse/overview/index.html&quot; rel=&quot;nofollow&quot;&gt;Oracle Enterprise Pack for Eclipse (OEPE)&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For development with Oracle Autonomous Database in the Cloud, checkout &lt;a href=&quot;https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/eclipsetoolkit.htm&quot; rel=&quot;nofollow&quot;&gt;Oracle Infrastructure Toolkit for Eclipse&lt;/a&gt; and download the plugins from &lt;a href=&quot;https://github.com/oracle/oci-toolkit-eclipse&quot; rel=&quot;nofollow&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 13 Mar 2013 15:02:34 +0000</pubDate>
+ <dc:creator>kkomissarchik</dc:creator>
+ <guid isPermaLink="false">731916 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/oracle-database-tools#comments</comments>
+  </item>
+  <item>
+    <title>JRebel and XRebel for Eclipse</title>
+    <link>http://marketplace.eclipse.org/content/jrebel-and-xrebel-eclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/pluginIcon_transparent.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mrasmussenton/listings&quot; title=&quot;Michael Rasmussen&quot;&gt;Michael Rasmussen&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2011-01-25 08:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-03-02 05:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Perforce%20Software%22&quot;&gt;Perforce Software&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;a href=&quot;https://www.jrebel.com/&quot; rel=&quot;nofollow&quot;&gt;JRebel&lt;/a&gt; is a productivity tool that allows developers to reload code changes instantly. It skips the rebuild, restart, and redeploy cycle common in Java development. JRebel enables developers to get more done in the same amount of time and stay in the flow while coding. JRebel supports a majority of real-world enterprise java stacks and is easy to install into existing development environments.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.xrebel.com&quot; rel=&quot;nofollow&quot;&gt;XRebel&lt;/a&gt; is a performance tool for Java development which gives developers real time performance insights to help them understand and resolve potential issues faster and earlier, during the development phase.&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 25 Jan 2011 13:59:21 +0000</pubDate>
+ <dc:creator>mrasmussenton</dc:creator>
+ <guid isPermaLink="false">29591 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jrebel-and-xrebel-eclipse#comments</comments>
+  </item>
+  </channel>
+</rss>

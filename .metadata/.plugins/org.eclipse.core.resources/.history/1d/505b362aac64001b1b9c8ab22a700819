@@ -1,0 +1,24 @@
+package org.string;
+
+import java.util.Scanner;
+
+public class Q53 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the phonenumber ....");
+		String phone = sc.nextLine();
+		
+		if(phone.contains("065-090 && 097-122")) {
+			
+			System.out.println("Invalid  Numnber");
+		}
+			else {
+				
+				System.out.println("Valid Number");
+		
+			}
+			
+	}
+}

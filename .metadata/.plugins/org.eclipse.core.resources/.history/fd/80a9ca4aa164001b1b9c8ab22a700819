@@ -1,0 +1,17 @@
+package org.string;
+
+import java.util.Scanner;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the emailID....");
+		String email = sc.next();
+		
+		boolean e1 = email.contains("@");
+		System.out.println(e1);
+		System.out.println(email.contains("t"));
+	}
+}

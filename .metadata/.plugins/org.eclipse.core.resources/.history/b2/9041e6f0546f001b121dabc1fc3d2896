@@ -1,0 +1,62 @@
+package org.questions;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.List;
+
+import org.apache.commons.io.FileUtils;
+
+public class Q3 {
+
+	public static void main(String[] args) throws IOException {
+
+		System.out.println("Find the row count from the file ");
+		File f = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+		List<String> rl = FileUtils.readLines(f);
+		System.out.println("The size of the row count is :" + rl.size());
+		System.out.println("");
+
+		System.out.println("Print the last 5 lines from the file.");
+		File f1 = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+		List<String> rl2 = FileUtils.readLines(f1);
+		for (int i = 0; i < rl2.size(); i++) {
+			String tr = rl2.get(i);
+			if (i >= 6) {
+				System.out.println(tr);
+				}
+			}
+
+		System.out.println("");
+		System.out.println("Print the odd  lines from the file.");
+		File f2 = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+		List<String> rl3 = FileUtils.readLines(f2);
+		for (int i = 1; i < rl3.size(); i++) {
+			String tr = rl3.get(i);
+			if (i%2 == 0) {
+				System.out.println(tr);
+			}
+		}
+		
+		System.out.println("");
+		System.out.println("Count the number of duplicate words avail in file.");
+		File f3 = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+		List<String> rl4 = FileUtils.readLines(f3);
+		
+		for (int i = 0; i < rl4.size(); i++) {
+			String tr = rl4.get(i);
+		
+				
+				System.out.println(i);
+				
+			}
+//			
+//			
+//			
+//			if (i %2 == 0) {
+//				System.out.println(tr);
+			}
+		}
+		
+	}
+
+

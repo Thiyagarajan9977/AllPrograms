@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.sel.BrowserLaunch&apos; to &apos;ChromeBrowserLaunch&apos;&#x0D;&#x0A;- Original project: &apos;Selenium2&apos;&#x0D;&#x0A;- Original element: &apos;org.sel.BrowserLaunch&apos;&#x0D;&#x0A;- Renamed element: &apos;org.sel.ChromeBrowserLaunch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BrowserLaunch&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.sel{BrowserLaunch.java[BrowserLaunch" matchStrategy="1" name="ChromeBrowserLaunch" qualified="false" references="true" similarDeclarations="false" stamp="1613119715528" textual="false" version="1.0"/>
+</session>

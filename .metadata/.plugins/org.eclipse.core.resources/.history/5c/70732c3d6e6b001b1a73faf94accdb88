@@ -1,0 +1,45 @@
+package org.sington;
+
+
+//SingleTone is one of design pattern in java
+//one class having one object
+//Whenever we need result as variable, 
+//Need to set variable as returnType
+//Whenever we need result as object, 
+//Need to set class Name as returnType
+
+//SingleTone Rule :
+
+// 1. Need to declare the private constructor - Bcoz
+// other class not suppose to create new object
+// 2. declare the object as static
+
+public class SingleTon {		//Class Name
+	
+	Static SingleTon e;
+	
+	
+public SingleTon() {			//Constructor Creation
+	
+	}	
+	
+	public static SingleTon getinstance() {
+		
+		if(e==null) {
+			e=new SingleTon();
+			
+			System.out.println(System.identityHashCode(e));
+			return e;
+		}
+	}
+	
+	public void empid() {
+		System.out.println("Hai");
+	}
+	
+	public void mai() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package org.sington;
+
+public class Employee {
+	
+	private int empid() {
+		
+		int a = 10;
+		int b =20;
+		int c=a+b;
+		return c;
+		System.out.println(c);
+	}
+	
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		e.empid();
+
+		
+	}
+
+	
+	
+}

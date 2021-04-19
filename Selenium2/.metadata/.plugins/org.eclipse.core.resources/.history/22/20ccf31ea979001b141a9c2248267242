@@ -1,0 +1,40 @@
+package org.questions.day4;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q4 {
+
+		public static void main(String[] args) {
+			System.setProperty("webdriver.chrome.driver",
+					"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+			WebDriver driver = new ChromeDriver();
+			driver.get("http://www.greenstech.in/selenium-course-content.html");
+			
+			driver.manage().deleteAllCookies();
+			
+			System.out.println("The OMR Address is ......");
+		
+			WebElement gettxt = driver.findElement(By.xpath("//span[contains(text(),'Plot No.19,')]"));
+			String text = gettxt.getText();
+			System.out.println(text);
+			
+			WebElement gettxt1 = driver.findElement(By.xpath("//span[contains(text(),'First Street,')]"));
+			String text1 = gettxt1.getText();
+			System.out.println(text1);
+			
+			WebElement gettxt2 = driver.findElement(By.xpath("//span[contains(text(),'padmanabha Nagar,')]"));
+			String text2 = gettxt2.getText();
+			System.out.println(text2);
+			
+			WebElement gettxt3 = driver.findElement(By.xpath("//span[contains(text(),'Adyar,')]"));
+			String text3 = gettxt3.getText();
+			System.out.println(text3);
+			
+			WebElement gettxt4 = driver.findElement(By.xpath("//span[contains(text(),'Chennai-600 020.')]"));
+			gettxt4.getText();
+			
+		}
+	}

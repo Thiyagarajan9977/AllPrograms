@@ -1,0 +1,11 @@
+package org.exceptions.handling;
+
+public class UsrDefException extends Exception {
+
+	public String getmessage() {
+
+		String msg = "Employee not available in unit ";
+
+		return msg;
+	}
+}

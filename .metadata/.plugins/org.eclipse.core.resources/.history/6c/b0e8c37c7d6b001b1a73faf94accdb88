@@ -1,0 +1,19 @@
+package org.arrayquestions;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Q5 {
+	
+	public static void main(String[] args) {
+
+		List<Integer> li = new ArrayList<Integer>();
+		li.add(10);
+		li.add(20);
+		li.add(30);
+		li.add(90);
+		System.out.println("Input values - " +li);
+		System.out.println("first index value of 10 :" +li.indexOf(10) +"position");	
+				
+	}
+}

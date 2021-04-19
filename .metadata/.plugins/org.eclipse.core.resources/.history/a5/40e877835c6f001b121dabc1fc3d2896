@@ -1,0 +1,18 @@
+package org.questions;
+
+import java.io.File;
+import java.io.IOException;
+
+public class Q10 {
+	
+	public static void main(String[] args) throws IOException {
+		
+		File f =  new File("C:\\Users\\Admin\\Desktop\\Green Tech Class");
+		
+		File[] lf = f.listFiles();
+		for (File pr : lf) {
+			System.out.println(pr);
+			
+		}
+	}	
+}

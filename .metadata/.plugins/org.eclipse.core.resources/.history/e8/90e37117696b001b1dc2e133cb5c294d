@@ -1,0 +1,5 @@
+package org.sington;
+
+public class SingleTon {
+
+}

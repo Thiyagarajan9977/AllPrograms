@@ -1,0 +1,30 @@
+package org.questions.day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q4 {
+
+public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", 
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://infinity.icicibank.com/corp/Login.jsp");
+		
+		WebElement txtuserid = driver.findElement(By.xpath("//input[@name='DUMMY1']"));
+		txtuserid.sendKeys("TestinguserID");
+		
+	/*	WebElement arclick = driver.findElement(By.xpath("(//img[@id='user-id-goahead'])[1]"));
+		arclick.click();*/
+		
+		WebElement txtpwd = driver.findElement(By.xpath("//input[@name='DUMMY2']"));
+		txtpwd.sendKeys("9791889978");		
+		
+		System.out.println("Page Opened");
+		}
+}

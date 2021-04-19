@@ -1,0 +1,42 @@
+package org.questions.day2;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Q9 {
+
+	public static void main(String[] args) {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+
+		driver.get("http://demo.automationtesting.in/Register.html");
+
+		WebElement txtuserid = driver.findElement(By.xpath("//input[@placeholder='First Name']"));
+		txtuserid.sendKeys("Testuser");
+		
+		WebElement txtlast = driver.findElement(By.xpath("//input[@placeholder='Last Name']"));
+		txtlast.sendKeys("Textlastname");
+		
+		WebElement txtadd = driver.findElement(By.xpath("//textarea[contains(text(),'')]"));
+		txtadd.sendKeys("Address");
+		
+		WebElement txtemail = driver.findElement(By.xpath("//input[@type='email']"));
+		txtemail.sendKeys("thiyaguji@yahoo.com");
+		
+		WebElement txttel = driver.findElement(By.xpath("//input[@type='tel']"));
+		txttel.sendKeys("9791889978");
+		
+		WebElement txtpwd = driver.findElement(By.xpath("//input[contains(@id,'firstpassword')]"));
+		txtpwd.sendKeys("firstpassword");
+		
+		WebElement txtpwd2 = driver.findElement(By.xpath("//input[contains(@id,'secondpassword')]"));
+		txtpwd2.sendKeys("secondpassword");
+		
+		System.out.println("All the text field entered");
+				}	
+}

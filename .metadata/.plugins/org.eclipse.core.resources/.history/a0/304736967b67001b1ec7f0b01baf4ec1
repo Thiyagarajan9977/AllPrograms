@@ -1,0 +1,25 @@
+package org.cons;
+
+public class Construct {
+
+	public Construct() {
+
+		System.out.println("default constructor");
+	}
+
+	public Construct(int a) {
+		this();
+
+		System.out.println("Int Parameterized Constructor");
+
+	}
+
+	public static void main(String[] args) {
+
+		Employee c = new Employee();
+		Construt(10);
+		
+
+	}
+
+}

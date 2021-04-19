@@ -1,0 +1,15 @@
+package org.map.questions;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+
+public class Q2 {
+	
+	public static void main(String[] args) {
+		
+		Map<Integer, Integer> m = new LinkedHashMap<Integer, Integer>();
+		
+		
+	}
+
+}

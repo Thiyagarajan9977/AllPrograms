@@ -1,0 +1,15 @@
+package org.day1;
+
+public class Q1 {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.gecko.driver", 
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\geckodriver.exe");
+		
+		
+		
+	}
+	
+
+}

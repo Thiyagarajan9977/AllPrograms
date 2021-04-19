@@ -1,0 +1,15 @@
+package org.questions;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+public class Q2 {
+	
+	public static void main(String[] args) {
+		
+		File f = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+		String rs = FileUtils.readFileToString(f);
+	}
+
+}

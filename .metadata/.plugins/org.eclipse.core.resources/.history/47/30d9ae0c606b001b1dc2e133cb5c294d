@@ -1,0 +1,18 @@
+package org.exceptions.handling;
+
+import java.util.Scanner;
+
+public class ThrowMethod {
+	
+	private void empid() {
+		
+		Scanner s = new Scanner(System.in);
+		String id = s.next();
+		if(id.startsWith("13")) {
+			System.out.println("valid ID");
+			}
+		else {
+			System.out.println("Invalid ID");
+		}
+	}
+}

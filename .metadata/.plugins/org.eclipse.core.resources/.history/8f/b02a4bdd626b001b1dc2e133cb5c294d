@@ -1,0 +1,26 @@
+package org.exceptions.handling;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class UsrDefException2 extends UsrDefException {
+	
+private static void empid() throws UsrDefException {
+		
+		Scanner s = new Scanner(System.in);
+		String id = s.next();
+		if(id.startsWith("13")) {
+			System.out.println("valid ID");
+			}
+		else {
+			System.out.println("Invalid ID");
+			
+			throw new UsrDefException();
+		} 
+	}
+	
+	public static void main(String[] args) throws UsrDefException {
+		empid();
+	}
+}
+

@@ -1,0 +1,32 @@
+package org.sel;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class FirefoxBrowserLaunch {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("wedbdriver.gecko.driver", 
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Drivers\\geckodriver.exe");
+		
+		WebDriver driver1 = new FirefoxDriver();
+		
+		driver1.get("https://www.facebook.com/");
+		
+		//get a current page url
+		
+				String cu = driver1.getCurrentUrl();
+				System.out.println(cu);
+				
+				//get a page title
+				
+				String title = driver1.getTitle();
+				System.out.println(title);
+				
+				//quit the browser
+				driver1.quit();			
+		}
+
+}

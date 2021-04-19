@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;org.array.ArrayConcepts&apos; to &apos;ArraySingleDimension&apos;&#x0D;&#x0A;- Original project: &apos;ArraysConcept&apos;&#x0D;&#x0A;- Original element: &apos;org.array.ArrayConcepts&apos;&#x0D;&#x0A;- Renamed element: &apos;org.array.ArraySingleDimension&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayConcepts&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;org.array{ArrayConcepts.java[ArrayConcepts" matchStrategy="1" name="ArraySingleDimension" qualified="false" references="true" similarDeclarations="false" stamp="1612345052185" textual="false" version="1.0"/>
+</session>

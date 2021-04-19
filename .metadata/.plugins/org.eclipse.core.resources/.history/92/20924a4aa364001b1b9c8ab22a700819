@@ -1,0 +1,23 @@
+package org.string;
+
+import java.util.Scanner;
+
+public class Q5 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the emailID....");
+		String email = sc.next();
+		
+		char check = email.charAt('@');
+		
+		if(check==0) {
+			System.out.println("Valid Address");
+		}
+		else {
+			
+			System.out.println("Invalid Address");
+		}
+	}
+}

@@ -1,0 +1,55 @@
+package org.class8;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JavaScrExecutor {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\Admin\\eclipse-workspace\\Selenium2\\Selenium\\Drivers\\chromedriver.exe");
+
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.facebook.com");
+		driver.manage().window().maximize();
+		
+		/*	Type Conversion or UpCasting Example
+			
+			int a =10;
+			long b =20;
+			b=a;  -> Here assigning integer value (a) into long (b) this
+					kind of assign called Type conversion or UpCasting*/
+		
+		/*	Type Casting or DownCasting
+		
+		int a=10;
+		long b=20;
+		a=(int)b  -> Here assigning Long value(b) into integer value (a)
+			   		this kind of assigning is called Type casting or Down Casting*/	
+				
+		// JavascriptExecutor is Interface driver is object,  Using Type Casting 
+		//method to assigning driver object into Javascript executor
+		
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		WebElement txtusername = driver.findElement(By.id("email"));
+		
+		//Sendkeys Method
+		
+		js.executeScript("arguments[0].setAttribute('value', 'Thiyagu')", txtusername);
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,27 @@
+package org.questions;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
+
+public class Q3 {
+	
+	public static void main(String[] args) throws IOException {
+		
+		File f = new File("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions2.txt");
+			
+		String fs = FileUtils.readFileToString(f);
+		int lt = fs.length();
+		
+		FileInputStream file = new FileInputStream(f);
+		
+		
+		
+		
+		
+	}
+
+}
+

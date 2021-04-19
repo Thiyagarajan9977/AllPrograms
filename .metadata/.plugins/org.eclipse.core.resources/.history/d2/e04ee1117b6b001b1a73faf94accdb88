@@ -1,0 +1,39 @@
+
+
+package org.arrayquestions;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Q4 {
+	
+	public static void main(String[] args) {
+		
+		List<Integer> li = new ArrayList<Integer>();
+		Scanner li2 = new Scanner(System.in);
+		System.out.println("Enter the values");
+		int lt = li2.nextInt();
+		
+		
+		
+		
+		
+		
+		/*li.add(10);
+		li.add(20);
+		li.add(30);
+		li.add(90);
+		li.add(10);
+		li.add(10);
+		li.add(40);
+		li.add(50);*/
+		System.out.println(lT);
+		
+		
+		
+	}
+	
+	
+
+}

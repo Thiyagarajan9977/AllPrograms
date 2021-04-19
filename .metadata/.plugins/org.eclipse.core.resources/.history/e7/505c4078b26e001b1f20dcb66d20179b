@@ -1,0 +1,33 @@
+package org.questions;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+public class FileReadExample {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		Path pa = Paths.get("C:\\Users\\Admin\\Desktop\\Green Tech Class\\Fileoperations\\Questions1.txt");
+
+		try {
+
+			byte[] rb = Files.readAllBytes(pa);
+
+			for (int i = 0; i < rb.length; i++) {
+
+				System.out.println((char) rb[i]);
+
+			}
+
+		} catch (IOException e) {
+			
+			e.printStackTrace();
+
+		}
+
+	}
+
+}
